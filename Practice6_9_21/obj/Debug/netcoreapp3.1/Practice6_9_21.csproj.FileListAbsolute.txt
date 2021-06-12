@@ -1,0 +1,13 @@
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.exe
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.deps.json
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.runtimeconfig.json
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.runtimeconfig.dev.json
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.dll
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.pdb
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.AssemblyInfoInputs.cache
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.AssemblyInfo.cs
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.csproj.CoreCompileInputs.cache
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.dll
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.pdb
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.genruntimeconfig.cache
+E:\SchoolRepos\Practice6_9_21\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.csproj.AssemblyReference.cache
