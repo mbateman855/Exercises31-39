@@ -10,7 +10,11 @@ namespace Practice6_9_21
             //Exercise32();
             //Exercise33();
             //Exercise34();
-            Exercise35();
+            //Exercise35();
+            //Exercise36();
+            //Exercise37();
+            //Exercise38();
+            Exercise39();
         }
 
         static bool RepCheck(string a)
@@ -225,24 +229,148 @@ namespace Practice6_9_21
                     {
                         Console.WriteLine("Those are not valid indices.");
                     }
-
                 }
                 else
                 {
                     Console.WriteLine("Those are not valid indices.");
                 }
-
-               
+             
                 Console.WriteLine("Would you like to continue? Y/N");
 
                 repeat = RepCheck(Console.ReadLine());
             } while (repeat == true);
 
-            Console.WriteLine("Goodbye!");
-            
+            Console.WriteLine("Goodbye!");           
         }
 
-        
+        static void Exercise36()
+        {
+            int[] nums = new int[5] { 12, 11, 10, 9, 8 };
+            string[] words = new string[5] { "Drummers Drumming", "Pipers Piping", "Lords a-Leaping", "Ladies Dancing", "Maids a-Milking" };
 
+            Console.WriteLine("Please enter a command (sing/quit):");
+            string input = Console.ReadLine();
+
+            if (input == "sing")
+            {
+                for(int i = 0; i < 5; i++)
+                {
+                    Console.WriteLine(nums[i] + words[i]);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Goodbye!");
+            }
+        }
+
+        static void Exercise37()
+        {
+            //Same as graded assignment
+
+            int[] nums = new int[5];
+            int sum = 0;
+            Console.WriteLine("Please enter five numbers.");
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.Write("Enter a number: ");
+                nums[i] = int.Parse(Console.ReadLine());
+
+                sum += nums[i];
+            }
+
+            Console.WriteLine($"The sum of all of your numbers is {sum}.");
+
+            Console.WriteLine("Would you like to continue? Y/N");
+
+            //repeat without using a do while loop
+            string repCheck = Console.ReadLine().ToLower();
+
+            if (repCheck == "y")
+            {
+                Exercise37();
+            }
+            else if (repCheck == "n")
+            {
+                Console.WriteLine("Goodbye!");
+            }
+        }
+
+        static void Exercise38()
+        {
+            int[] nums = new int[5];
+            int sum = 0;
+            Console.WriteLine("Please enter five numbers.");
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.Write("Enter a number: ");
+                nums[i] = int.Parse(Console.ReadLine());
+
+                sum += nums[i];
+            }
+
+            double average = sum / nums.Length;
+
+            Console.WriteLine($"The average of your numbers is {average}.");
+
+            Console.WriteLine("Would you like to continue? Y/N");
+
+            string repCheck = Console.ReadLine().ToLower();
+
+            if (repCheck == "y")
+            {
+                Exercise38();
+            }
+            else if (repCheck == "n")
+            {
+                Console.WriteLine("Goodbye!");
+            }
+        }
+
+        static void Exercise39()
+        {
+            int[] nums = new int[5];
+            Console.WriteLine("Please enter five numbers.");
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.Write("Enter a number: ");
+                nums[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (int count = 0; count < nums.Length; count++)
+            {
+                for (int i = 0; i < nums.Length - 1; i++)
+                {
+                    int temp;
+                    if (nums[i] > nums[i + 1])
+                    {
+                        temp = nums[i];
+                        nums[i] = nums[i + 1];
+                        nums[i + 1] = temp;
+                    }
+                }
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.Write(nums[i] + " ");
+            }
+
+            Console.WriteLine("Would you like to continue? Y/N");
+
+            string repCheck = Console.ReadLine().ToLower();
+
+            if (repCheck == "y")
+            {
+                Exercise39();
+            }
+            else if (repCheck == "n")
+            {
+                Console.WriteLine("Goodbye!");
+            }
+        }
     }
 }

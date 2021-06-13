@@ -17,10 +17,10 @@ C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\bin\D
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.runtimeconfig.dev.json
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.dll
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\bin\Debug\netcoreapp3.1\Practice6_9_21.pdb
-C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.csprojAssemblyReference.cache
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.AssemblyInfoInputs.cache
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.AssemblyInfo.cs
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.csproj.CoreCompileInputs.cache
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.dll
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.pdb
 C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.genruntimeconfig.cache
+C:\Users\Morgan Bateman\Desktop\Grand Circus\Exercises31-39\Practice6_9_21\obj\Debug\netcoreapp3.1\Practice6_9_21.csproj.AssemblyReference.cache
