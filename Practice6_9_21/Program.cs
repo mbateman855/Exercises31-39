@@ -204,36 +204,35 @@ namespace Practice6_9_21
                 string userInput = Console.ReadLine();
                 string[] splitInput = userInput.Split(" ");
 
+                int firstInput = int.Parse(splitInput[0]);
                 string firstIndex;
-                int secondIndex;
 
-                if (int.Parse(splitInput[0]) < strArray.Length && int.Parse(splitInput[0]) >= 0)
+                int secondInput = int.Parse(splitInput[1]);
+                char secondIndex;
+
+                if (firstInput < strArray.Length && firstInput >= 0)
                 {
-                    for (int i = 0; i < strArray.Length; i++)
+
+                    firstIndex = strArray[firstInput];
+
+                    if (secondInput < firstIndex.Length && secondInput >= 0)
                     {
-                        if (splitInput[0] == strArray[i])
-                        {
-                            firstIndex = strArray[i];
-                        }
-                        
+                        secondIndex = firstIndex[secondInput];
+
+                        Console.WriteLine($"The value at index {firstInput} is {firstIndex}. The value at index {secondInput} is {secondIndex}.");
                     }
+                    else
+                    {
+                        Console.WriteLine("Those are not valid indices.");
+                    }
+
                 }
                 else
                 {
                     Console.WriteLine("Those are not valid indices.");
                 }
 
-                secondIndex = int.Parse(splitInput[1]);
-
-                for (int i = 0; i < strArray[i].Length; i++)
-                {
-                    if (secondIndex > strArray[i].Length)
-                    {
-                        Console.WriteLine("Those are not valid indices.");
-                    }
-                }
-
-                Console.WriteLine($"The value at index ");
+               
                 Console.WriteLine("Would you like to continue? Y/N");
 
                 repeat = RepCheck(Console.ReadLine());
@@ -241,8 +240,9 @@ namespace Practice6_9_21
 
             Console.WriteLine("Goodbye!");
             
-
         }
+
+        
 
     }
 }
